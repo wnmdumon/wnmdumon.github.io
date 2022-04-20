@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="registro">
+  <div class="logo">
+    <img src="images/Central Music Logo.svg" alt="logo-fa-music" style="max-width: 100%;">
+   </div>
+    <form class="formulario">
+        <h1>REGISTRO</h1>
+
+     <div class="contenedor">
+       <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="Nombre y Apellido">
+         <span class="error-message">Debe ingresar datos completos</span>
+        </div>
+   <div class="contenedor">
+     <div class="input-contenedor">
+          <i class="fas fa-envelope icon"></i>
+          <input type="text" placeholder="correo electronico">
+          <span class="error-message">Ingrese correo</span> 
+     </div>
+
+      <div class="input-contenedor">
+           <i class="fas fa-key icon"></i>
+           <input type="password" placeholder="Contraseña">
+           <span class="error-message">Ingresar su contraseña</span>
+      </div>
+      
+      <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" placeholder=" Repetir Contraseña">
+            <span class="error-message">Debe re-ingresar su contraseña</span>
+      </div>
+    
+     <input type="submit" class="btn solid" value="Crear cuenta" />
+        <p>Estoy de Acuerdo con <a href="#">Terminos y Condiciones</a></p>
+  <div class="form--group">
+      <label for="avatar">Avatar</label>
+      <input type="file" name="avatar" id="avatar" >
+          <small class="text-danger">Campo requerido</small>
+      <span class="error-message">Hubo un error en el registro</span>
+     <button class="btn btn-outline-success" type="reset">Limpiar</button>
+     <p><a href="login.html">Ya tengo Cuenta</a></p>
+    </div>
+  </div>
+    </form>
+   
+</body>
+</html>
